@@ -220,7 +220,7 @@ body {
   margin-top: 40px;
   width: 270px;
   transition-duration: 500ms;
-  cubic-bezier(.17,.67,.83,.67)
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .myphoto:hover {
   width: 290px;
